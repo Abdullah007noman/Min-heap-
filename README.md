@@ -24,7 +24,24 @@ Bit Manipulation for Parent and Child Indices
 ## Usage
 To use the min heap implementation, follow these steps:
 
-* 1. Clone the repository:
-     
+* Clone the repository:
+     ``` bash
      git clone https://github.com/your-username/min-heap.git
-cd min-heap
+     cd min-heap
+     ```
+* Import the MinHeap class in your Python script:
+   ``` python
+   from min_heap import MinHeap
+   ```
+* Create a MinHeap object and use its methods:
+  ``` python
+  heap = MinHeap()
+  heap.build_min_heap([3, 1, 6, 5, 2, 4])
+  heap.insert(0)
+  print(heap.pop())
+   ```
+  
+
+
+  
+  
