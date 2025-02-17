@@ -21,3 +21,10 @@ Bit Manipulation for Parent and Child Indices
 * insert(key): Inserts a new element into the heap.
 * pop(): Removes and returns the root (minimum) element.
 
+## Usage
+To use the min heap implementation, follow these steps:
+
+* 1. Clone the repository:
+     
+     git clone https://github.com/your-username/min-heap.git
+cd min-heap
